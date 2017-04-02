@@ -9,6 +9,10 @@ addListButton.addEventListener("click", function() {
   addListPopupDiv.style.display = "flex";
 });
 
+addItemButton.addEventListener("click", function() {
+  addItemPopupDiv.style.display = "flex";
+});
+
 var closeButton = document.querySelectorAll(".close");
 closeButton.forEach(function(button, i) {
 
